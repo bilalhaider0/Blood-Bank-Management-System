@@ -1,0 +1,44 @@
+
+<html>
+<body>
+	<br><br>
+	<h1 style="border:solid 4px;text-align:center">STEP 2</h1>
+	<h1 style="border:solid 4px;text-align:center">ENTER DONOR</h1>
+	<style>
+		body {
+		  background-image: url('2.png');
+		  background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  
+		}
+		</style>
+	<form style="font-weight:bold;padding:20px;text-align:center;" method="POST" action="2-2.php">
+		<br>
+		<label>DONOR NAME: </label>
+		<input type="text" name="donor_name" required>
+		<br><br>
+		<label>DONOR ID: </label>
+		<input type="text" name="do_id" required>
+		<br><br>
+		<label>DOCTOR ID: </label>
+		<select name="dd_id">
+			<option value="1">DR.HAIDER</option>
+			<option value="2">DR.ALI</option>
+			<option value="3">DR.AHMED</option>
+			<option value="4">DR.ANSARI</option>
+		</select>
+		<br><br>
+		<label>GENDER: </label>
+		<input type="radio" name="gen" value="MALE"  required>MALE
+		<input type="radio" name="gen" value="FEMALE" required>FEMALE
+		<br><br>
+		<label>AGE: </label>
+		<input type="text" name="age" required>
+		<br><br>
+		<label>BLOOD PRESSURE: </label>
+		<input type="text" name="bp" required>
+		<br><br><br>
+		<button style="padding:15px 32px;background-color:#00dd50;border:none;color:white;" type="submit" name="donor_enter" >NEXT</button>
+	</form>
+</body>
+</html>
